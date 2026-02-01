@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auth UI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="form-box">
+    <h2 id="title">Login</h2>
+
+    <div class="input-group">
+      <input type="text" id="nameField" placeholder="Name" style="display:none;">
+      <input type="email" id="email" placeholder="Email">
+      <div class="password-box">
+        <input type="password" id="password" placeholder="Password">
+        <span id="togglePass">👁️</span>
+      </div>
+      
+      <div class="remember-box">
+        <label>
+          <input type="checkbox" id="rememberMe">
+          <span>Remember Me</span>
+        </label>
+      </div>
+    </div>
+
+    <p id="msg"></p>
+
+    <div class="btn-group">
+      <button id="loginBtn">Login</button>
+      <button id="signupBtn" class="disable">Sign Up</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
