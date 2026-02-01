@@ -6,7 +6,7 @@ This project demonstrates frontend skills like form validation, animations, UI s
 ---
 
 ## ✨ Features
-- Login / Signup toggle with smooth animation  
+- Login / Signup toggle 
 - Form validation with error handling  
 - Show / hide password  
 - Remember Me (localStorage)  
